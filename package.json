@@ -10,6 +10,8 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^5.2.2",
     "vue": "^2.5.11",
     "webpack-cli": "^3.3.2"
   },
@@ -27,6 +29,8 @@
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-html": "^5.0.5",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
