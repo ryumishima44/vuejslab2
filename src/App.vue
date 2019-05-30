@@ -2,10 +2,12 @@
   #app
     search
     sideBar
+    movieCards
 </template>
 <script>
 import Search from './components/search/Search.vue'
 import SideBar from './components/sideBar/SideBar.vue'
+import movieCards from './components/movieCards/movieCards.vue'
 export default {
   name: 'app',
   data () {
@@ -15,7 +17,8 @@ export default {
   },
   components: {
     Search,
-    SideBar
+    SideBar,
+    movieCards
   }
 }
 </script>
