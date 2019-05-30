@@ -25,7 +25,7 @@ export default {
 
 .search-container {
   display: flex;
-  height: 60px;
+  height: 72px;
   align-items: center;
   justify-content: center;
 

@@ -1,9 +1,11 @@
 <template lang='pug'>
   #app
     search
+    sideBar
 </template>
 <script>
 import Search from './components/search/Search.vue'
+import SideBar from './components/sideBar/SideBar.vue'
 export default {
   name: 'app',
   data () {
@@ -12,7 +14,8 @@ export default {
     }
   },
   components: {
-    Search
+    Search,
+    SideBar
   }
 }
 </script>
